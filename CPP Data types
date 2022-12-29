@@ -1,0 +1,27 @@
+CPP Data types 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    char grade = 'A' ;
+    string name = "Theint Theint" ;
+    string text = "Theint Theint is so beautiful." ;
+    int age = 100 ;
+    double points = 90.8643 ;
+    bool isMale = "true" ;
+
+        cout << "Name = " << name << endl;
+        cout << "age = " << age << endl;
+        cout << "grade = " << grade << endl;
+        cout << "points = " << points << endl;
+        cout << "She is Male = " << isMale << endl ;
+        cout << "She looks pretty. She looks kind. She probably gives you butterfly." << endl;
+        cout << "note = " << text << endl;
+
+    return 0;
+
+}
